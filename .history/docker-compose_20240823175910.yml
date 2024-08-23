@@ -1,0 +1,12 @@
+services:
+  backend:
+    build: "C:/Users/sujal/OneDrive/Desktop/courses_api/backend"
+    container_name: django_backend
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: "C:/Users/sujal/OneDrive/Desktop/courses_api/frontend"
+    container_name: react_frontend
+    ports:
+      - "3000:3000"
